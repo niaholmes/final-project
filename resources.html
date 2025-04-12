@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Resources</title>
+</head>
+<body>
+    <header>
+        <div class="off-screen-menu">
+            <p>Where to?</p><p>______________________</p><br><br>
+            <ul id="menuList">
+                <li><a href="index.html">Fan Edits</a></li><br><br>
+                <li><a href="guide.html">How To Use Video Star</a></li><br><br>
+                <li><a href="tips.html">Starting Your Fan Account</a></li><br><br>
+                <li><a id="current" href="resources.html">Resources</a></li>
+            </ul>
+        </div>
+      
+            <nav>
+                <div class="ham-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+    </header>
+    <main id="theMain">
+        <div>
+            <h1>My Experience</h1>
+            <p>I started editing during the Pandemic, so I had a lot of time learn and troubleshoot the whole editing process. And that's the main thing I want to highlight: editing is going to take <em>time</em>, so be patient with yourself and don't give up! I am still a learning things myself and I have been editing for over 4 years now!</p>
+            <p>Remember to have consistency! My current editing account does not display 4 years of growth because I switched editing account <em>so</em> often (<strong id="caps">do not do that!</strong>)</p>
+            <p>This entire process will be extremely stressful, but you will always be proud of the end results, and you'll have fun if it's something you really like doing.</p>
+        </div>
+        <div>
+            <h1>Additional Information</h1>
+            <p>Below is a form you can submit if you have any specific questions, or any requests for tutorials. I will answer all questions, and I will try to get a requested tutorial posted on YouTube ASAP!</p>
+        </div>
+
+        <form id="myForm">
+            <fieldset>
+                <legend>How Can I Help?</legend>
+                <label for="email_id">Email:</label>
+                <input type="email" id="email_id" name="email">
+    
+                <label for="options">Request Type:</label>
+                    <select id="options" name="options">
+                        <option value="question">Question</option>
+                        <option value="tut">Tutorial Request</option>
+                        <option value="other" selected>Other</option>
+                    </select>
+    
+                <label for="your_input">Your Input:</label>
+                <textarea id="your_input"></textarea>
+    
+                <input type="submit" value="Submit" id="submit">
+    
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="guide.html">How To Use Video Star</a></li>
+            <li><a href="tips.html">How To Start Your Fan Account</a></li>
+            <li><a id="current" href="resources.html">Resources</a></li>
+        </ul>
+    </footer>
+    <script src="/js/script.js"></script>
+    </body>
+    </html>
